@@ -2,7 +2,7 @@ const products = [
     {
       id: 1,
       name: "Auriculares Inalambricos ASUS ROG STRIX Fusion 700 ACI FR 7.1 RGB ",
-      stock: 3,
+      stock: 0,
       cost: 17000,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
       image: [

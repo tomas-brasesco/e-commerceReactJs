@@ -31,7 +31,7 @@ const ItemDetail = ({ item }) => {
                     {
                         itemCount === 0
                         ? <ItemCount stock={item.stock} initial={itemCount} onAdd={onAdd} />
-                        : <Link to='/cart' style={{textDecoration: "none"}}><Button variant="contained" color="secondary">CheckOut</Button></Link>
+                        : <Link to='/cart' style={{textDecoration: "none"}}><Button variant="contained" color="secondary">Finalizar compra</Button></Link>
                     }
                 </WrapperDetail>
             </DetailContainer>
