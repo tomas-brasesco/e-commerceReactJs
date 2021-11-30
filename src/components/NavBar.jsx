@@ -19,7 +19,7 @@ const NavBar = () => {
                 <Right>
                     <MenuItem style={{textDecoration: "none", color: "burlywood"}}>REGISTER</MenuItem>
                     <MenuItem style={{textDecoration: "none", color: "burlywood"}}>SIGN IN</MenuItem>
-                    <MenuItem><CartWidget /></MenuItem>
+                    <MenuItem><Link to='/Cart'><CartWidget /></Link></MenuItem>
                 </Right>
             </Wrapper>
         </AppBar>

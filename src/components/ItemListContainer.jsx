@@ -8,8 +8,6 @@ const ItemListContainer = () => {
     const [datos, setDatos] = useState([]);
     const { idCategory } = useParams();
 
-    console.log(idCategory);
-
     //componentDidUpdate
     useEffect(() => {
         customFetch(2000, products.filter(item => {
