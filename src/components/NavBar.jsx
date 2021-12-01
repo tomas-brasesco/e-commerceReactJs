@@ -17,8 +17,8 @@ const NavBar = () => {
                     <Link to='/category/4' style={{textDecoration: "none", color: "burlywood"}}><MenuItem>Mouse</MenuItem></Link>                     
                 </Center>
                 <Right>
-                    <MenuItem style={{textDecoration: "none", color: "burlywood"}}>REGISTER</MenuItem>
-                    <MenuItem style={{textDecoration: "none", color: "burlywood"}}>SIGN IN</MenuItem>
+                    <MenuItem style={{textDecoration: "none", color: "burlywood"}}>REGISTRARSE</MenuItem>
+                    <MenuItem style={{textDecoration: "none", color: "burlywood"}}>INGRESAR</MenuItem>
                     <MenuItem><Link to='/Cart'><CartWidget /></Link></MenuItem>
                 </Right>
             </Wrapper>
