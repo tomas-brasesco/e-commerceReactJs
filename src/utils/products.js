@@ -69,7 +69,7 @@ const products = [
         id: 9
       },
       brand: {
-        id: 95,
+        id: 9500,
         name: "HyperX"
       },
       reviews: [
@@ -92,7 +92,7 @@ const products = [
       createdAt: "2021-09-18T05:11:04.952Z",
       updatedAt: "2021-09-20T16:10:21.030Z",
       categoryId: 1,
-      brandId: 10,
+      brandId: 10008,
       packingId: null,
       category: {
         name: "Teclados",

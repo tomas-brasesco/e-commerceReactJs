@@ -65,14 +65,6 @@ font-weight:600;
 `;
 
 
-
-
-
-
-
-
-
-
 const Cart = () => {
     const test= useContext(CartContext);
     return (
@@ -132,7 +124,7 @@ const Cart = () => {
                     </SummaryItem>
                     <SummaryItem type="total">
                         <SummaryItemText>Total a abonar</SummaryItemText>
-                        <SummaryItemPrice>${test.sumaPorItem()}</SummaryItemPrice>
+                        <SummaryItemPrice>${test.subTotal()}</SummaryItemPrice>
                     </SummaryItem>
                     <Buttonn>Finalizar</Buttonn>
                 </Summary>

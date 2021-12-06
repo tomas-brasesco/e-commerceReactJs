@@ -34,8 +34,11 @@ const cartContextProvider = ({children}) => {
     }
 
     const sumaPorItem = (idItem) => {
-        let index= cartList.map(item => item.idItem).indexOf(idItem);
-        return cartList[index].costItem * cartList[index].qtyItem;
+        if (idItem) {
+            const index= cartList.findIndex((item)=>item.idItem=idItem)
+        return cartList[0].costItem * cartList[0].qtyItem;
+        }
+        
     }
 
     const subTotal = () => {
