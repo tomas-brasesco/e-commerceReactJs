@@ -18,6 +18,7 @@ const ItemListContainer = () => {
             .catch(err => console.log(err))
     }, [idCategory]);
 
+    
     return (
         <>  
             <ItemList items={datos} />

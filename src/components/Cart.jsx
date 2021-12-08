@@ -82,6 +82,7 @@ const Cart = () => {
         <Bottom>
             <Info>
                 {
+                    
                     test.cartList.length > 0 &&
                         test.cartList.map(item =>
                         <Product key={item.idItem}>

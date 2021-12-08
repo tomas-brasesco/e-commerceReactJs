@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import { Wrapper, Logo, MenuItem, Left, Center, Right } from './styledComponents';
 
+
 const NavBar = () => {
     return (
         <AppBar position="relative">

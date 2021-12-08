@@ -1,6 +1,7 @@
 import Item from "./Item";
 import { ProductsContainer } from './styledComponents';
 
+
 const ItemList = ({ items }) => {
     return (
         <ProductsContainer>
